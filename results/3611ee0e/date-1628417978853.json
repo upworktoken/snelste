@@ -1,0 +1,49 @@
+{
+  "url": "https://www.gatsbyjs.com/",
+  "requestedUrl": "https://www.gatsbyjs.com/",
+  "timestamp": 1628418105494,
+  "ranks": {
+    "hundos": 11,
+    "performance": 11,
+    "accessibility": 10,
+    "cumulative": 11
+  },
+  "lighthouse": {
+    "version": "6.5.0",
+    "performance": 0.58,
+    "accessibility": 0.91,
+    "bestPractices": 0.93,
+    "seo": 1,
+    "total": 342
+  },
+  "firstContentfulPaint": 2862.6519999999996,
+  "speedIndex": 4313.6793535846955,
+  "largestContentfulPaint": 3314.593,
+  "totalBlockingTime": 797,
+  "cumulativeLayoutShift": 0.003574127197265625,
+  "timeToInteractive": 9855.8232853775,
+  "maxPotentialFirstInputDelay": 433,
+  "timeToFirstByte": 1.9229999999999876,
+  "weight": {
+    "summary": "89 requests • 1,047 KiB",
+    "total": 1070020,
+    "image": 169734,
+    "imageCount": 17,
+    "script": 628258,
+    "scriptCount": 37,
+    "document": 84433,
+    "font": 54850,
+    "fontCount": 3,
+    "stylesheet": 3053,
+    "stylesheetCount": 2,
+    "thirdParty": 410553,
+    "thirdPartyCount": 49
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}
