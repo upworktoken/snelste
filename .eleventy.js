@@ -313,8 +313,9 @@ module.exports = function(eleventyConfig) {
 		"./node_modules/chartist/dist/chartist.css.map": "chartist.css.map",
 	});
 
-	eleventyConfig.addWatchTarget("./assets/");
-
+	// eleventyConfig.addWatchTarget("./assets/");
+	// Commented watchtarget because of reloading/rebuilding tailwind.
+	
 	eleventyConfig.setBrowserSyncConfig({
 		ui: false,
 		ghostMode: false
