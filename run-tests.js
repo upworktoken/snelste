@@ -60,10 +60,10 @@ async function tryToPreventNetlifyBuildTimeout(dateTestsStarted, numberOfUrls) {
 		lastRuns = {};
 	}
 
-	let verticals = await fastglob("./_data/sites/*.js", {
+	let verticals = await fastglob("./_data/sites/**/*.js", {
 		caseSensitiveMatch: false
 	});
-
+	console.log(verticals)
 	for(let file of verticals) {
 		let group = require(file);
 		if(typeof group === "function") {

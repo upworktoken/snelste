@@ -1,6 +1,7 @@
 module.exports = {
 	name: "Paris Saint-Germain", // optional, falls back to object key
 	description: "The important pages on psg.fr.",
+	hide:true,
 	options: {
 		frequency: 60 * 23, // (in minutes), 23 hours
 	},
