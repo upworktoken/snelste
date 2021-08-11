@@ -1,0 +1,51 @@
+{
+  "url": "https://www.airbus.com/",
+  "requestedUrl": "https://www.airbus.com/",
+  "timestamp": 1628705625524,
+  "ranks": {
+    "hundos": 2,
+    "performance": 2,
+    "accessibility": 1,
+    "cumulative": 2
+  },
+  "lighthouse": {
+    "version": "8.3.0",
+    "performance": 0.02,
+    "accessibility": 0.88,
+    "bestPractices": 0.53,
+    "seo": 0.85,
+    "total": 228
+  },
+  "firstContentfulPaint": 4580.234,
+  "firstMeaningfulPaint": 5719.206500000001,
+  "speedIndex": 20832.57954368744,
+  "largestContentfulPaint": 20748.1505,
+  "totalBlockingTime": 4216.499999999996,
+  "cumulativeLayoutShift": 1.0001171875,
+  "timeToInteractive": 30607.43049999999,
+  "maxPotentialFirstInputDelay": 1720.0000000000036,
+  "timeToFirstByte": 3.1499999999999915,
+  "weight": {
+    "summary": "262 requests • 4,633 KiB",
+    "total": 4743994,
+    "image": 1948736,
+    "imageCount": 71,
+    "script": 1772593,
+    "scriptCount": 75,
+    "document": 67246,
+    "font": 135958,
+    "fontCount": 6,
+    "stylesheet": 763583,
+    "stylesheetCount": 30,
+    "thirdParty": 3051854,
+    "thirdPartyCount": 191
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 1013,
+    "violations": 56
+  }
+}

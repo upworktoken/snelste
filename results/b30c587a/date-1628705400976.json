@@ -1,0 +1,51 @@
+{
+  "url": "https://culers.fcbarcelona.com/",
+  "requestedUrl": "https://culers.fcbarcelona.com/",
+  "timestamp": 1628705950716,
+  "ranks": {
+    "hundos": 5,
+    "performance": 3,
+    "accessibility": 5,
+    "cumulative": 5
+  },
+  "lighthouse": {
+    "version": "8.3.0",
+    "performance": 0.3,
+    "accessibility": 0.66,
+    "bestPractices": 0.73,
+    "seo": 0.69,
+    "total": 238
+  },
+  "firstContentfulPaint": 11705.313999999998,
+  "firstMeaningfulPaint": 12237.390999999998,
+  "speedIndex": 12285.252398270357,
+  "largestContentfulPaint": 15650.864,
+  "totalBlockingTime": 613.7364999999918,
+  "cumulativeLayoutShift": 0.0004427897135416667,
+  "timeToInteractive": 25152.238999999994,
+  "maxPotentialFirstInputDelay": 315,
+  "timeToFirstByte": 3.448999999999998,
+  "weight": {
+    "summary": "137 requests • 3,301 KiB",
+    "total": 3380716,
+    "image": 87652,
+    "imageCount": 37,
+    "script": 2778554,
+    "scriptCount": 53,
+    "document": 32554,
+    "font": 218257,
+    "fontCount": 7,
+    "stylesheet": 223124,
+    "stylesheetCount": 2,
+    "thirdParty": 1098138,
+    "thirdPartyCount": 117
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 173,
+    "violations": 10
+  }
+}

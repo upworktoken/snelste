@@ -1,0 +1,51 @@
+{
+  "url": "https://www.realmadrid.com/en/tour-bernabeu",
+  "requestedUrl": "https://www.realmadrid.com/en/tour-bernabeu",
+  "timestamp": 1628706265674,
+  "ranks": {
+    "hundos": 3,
+    "performance": 1,
+    "accessibility": 4,
+    "cumulative": 3
+  },
+  "lighthouse": {
+    "version": "8.3.0",
+    "performance": 0.37,
+    "accessibility": 0.79,
+    "bestPractices": 0.67,
+    "seo": 0.77,
+    "total": 260
+  },
+  "firstContentfulPaint": 4119.579000000001,
+  "firstMeaningfulPaint": 4119.579000000001,
+  "speedIndex": 10673.170202739171,
+  "largestContentfulPaint": 4826.704500000002,
+  "totalBlockingTime": 710,
+  "cumulativeLayoutShift": 0.09985358344184028,
+  "timeToInteractive": 18250.102999999996,
+  "maxPotentialFirstInputDelay": 339,
+  "timeToFirstByte": 56.690000000000005,
+  "weight": {
+    "summary": "76 requests • 3,364 KiB",
+    "total": 3444908,
+    "image": 1833074,
+    "imageCount": 24,
+    "script": 949314,
+    "scriptCount": 28,
+    "document": 40400,
+    "font": 83029,
+    "fontCount": 6,
+    "stylesheet": 509126,
+    "stylesheetCount": 2,
+    "thirdParty": 672845,
+    "thirdPartyCount": 35
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 1032,
+    "violations": 52
+  }
+}
