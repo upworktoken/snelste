@@ -1,6 +1,7 @@
 module.exports = {
 	name: "Airbus website", // optional, falls back to object key
 	description: "How does the Airbus website perform?",
+	hide:true,
 	options: {
 		frequency: 60 * 23, // (in minutes), 23 hours
 	},

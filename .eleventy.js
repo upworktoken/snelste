@@ -99,9 +99,15 @@ module.exports = function(eleventyConfig) {
 		return url;
 	});
 
+	eleventyConfig.addFilter("GetName", function(domain) {
+		return domain.split('.')[0];
+	});
+
 	eleventyConfig.addFilter("showDigits", function(num, digits) {
 		return showDigits(num, digits, false);
 	});
+
+
 
 	eleventyConfig.addFilter("displayTime", function(time) {
 		let num = parseFloat(time);

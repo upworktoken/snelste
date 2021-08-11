@@ -2,10 +2,10 @@
 maxResults: 10
 layout: layout.njk
 pagination:
-  data: "sites"
+  data: sites
   size: 1
   alias: vertical
-permalink: "/{{ (sites[vertical].name or vertical) | slug }}/"
+permalink: "/{{ vertical | slug }}/"
 counts:
   performance: 0
   accessibility: 0
@@ -13,10 +13,13 @@ counts:
   seo: 0
   perfect: 0
   total: 0
+eleventyComputed:
+  title: "{{ sites[vertical].name }}"
+  description: "{{ sites[vertical].description }}"
 ---
-<div class="leaderboard-wrapper">
-<h1 class=" text-sm text-blue-500 bg-green-400 ">File: categories.njk</h1>
 
+{{vertical | log }}
+<div class="leaderboard-wrapper">
 	<table class="leaderboard">
 		<thead>
 			<tr>
@@ -48,6 +51,13 @@ counts:
 				<td class="leaderboard-url"><a href="{{ site[newestKey].url }}"><code class="url">{{ site[newestKey].url | displayUrl(hasRedirect) }}</code></a>
 					{%- if hasRedirect %}<span class="leaderboard-redirect-warn">Redirect from <code class="url">{{ site[newestKey].requestedUrl | displayUrl(true) }}</code></span>{% endif -%}
 					{%- if site[newestKey].error %}<span class="leaderboard-redirect-error">Error</span>{% endif -%}
+					{%- if not sites[vertical].hide %}
+					<span><a href="/{{vertical}}-{{ site[newestKey].url | displayUrl(hasRedirect) | GetName }}" class="leaderboard-data-right">
+						<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+						  <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd" />
+						</svg>
+					</a></span>
+					{%- endif %}
 				</td>
 			{%- if site[newestKey].error %}
 				<td colspan="2"></td>
