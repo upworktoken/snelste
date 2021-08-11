@@ -5,7 +5,7 @@ pagination:
   data: "sites"
   size: 1
   alias: vertical
-permalink: "/{{ (sites[vertical].name or vertical) | slug }}/"
+permalink: "/{{ (sites[vertical].name or vertical) | slug }}/{{ (sites[vertical].detail or vertical) | slug }}"
 counts:
   performance: 0
   accessibility: 0
@@ -15,7 +15,7 @@ counts:
   total: 0
 ---
 <div class="leaderboard-wrapper">
-<h1 class=" text-sm text-blue-500 bg-green-400 ">File: categories.njk</h1>
+<h1 class=" text-sm text-blue-500 bg-gray-400 "> categories.njk</h1>
 
 	<table class="leaderboard">
 		<thead>
