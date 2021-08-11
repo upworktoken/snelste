@@ -1,5 +1,5 @@
 module.exports = {
-	name: "CategoryIndexPage of RunningShoes ", // optional, falls back to object key
+	name: "Shoes", // optional, falls back to object key
 	description: "How do the websites of the Nike and Adidas perform?",
 	options: {
 		frequency: 60 * 23, // (in minutes), 23 hours
