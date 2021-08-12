@@ -3,7 +3,7 @@ module.exports = {
 	description: "How does Google website perform.",
 	hide:true,
 	options: {
-		frequency: 60 * 23, // (in minutes), 23 hours
+		frequency: 60 * 1, // (in minutes), 23 hours
 	},
 	urls: [
 	"https://www.google.com/intl/en_nl/ads/",

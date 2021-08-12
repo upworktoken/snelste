@@ -3,7 +3,7 @@ module.exports = {
 	description: "How does Nuxt website perform?",
 	detail: "nuxt",
 	options: {
-		frequency: 60 * 23, // (in minutes), 23 hours
+		frequency: 60 * 1, // (in minutes), 23 hours
 	},
 	urls: [
 	 "https://nuxtjs.org/docs/2.x/get-started/installation",

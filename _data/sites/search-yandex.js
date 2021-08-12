@@ -3,7 +3,7 @@ module.exports = {
 	description: "How do Yandex pages perform? ",
 	hide:true,
 	options: {
-		frequency: 60 * 23, // (in minutes), 23 hours
+		frequency: 60 * 1, // (in minutes), 23 hours
 	},
 	urls: [
 	 "https://yandex.ua/tune/geo",
