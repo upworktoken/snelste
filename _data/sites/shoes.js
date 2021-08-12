@@ -5,7 +5,7 @@ module.exports = {
 		frequency: 60 * 23, // (in minutes), 23 hours
 	},
 	urls: [
-		"https://www.adidas.com/",
-		"https://www.nike.com/",
+		"https://adidas.com/",
+		"https://nike.com/",
 	]
 };

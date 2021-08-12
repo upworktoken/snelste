@@ -5,8 +5,8 @@ module.exports = {
 		frequency: 60 * 23, // (in minutes), 23 hours
 	},
 	urls: [
-		"https://www.realmadrid.com/",
-		"https://en.psg.fr/",
-		"https://www.fcbarcelona.com/}"
+		"https://realmadrid.com/",
+		"https://psg.fr/",
+		"https://fcbarcelona.com/"
 	]
 };

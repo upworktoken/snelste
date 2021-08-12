@@ -5,7 +5,7 @@ module.exports = {
 		frequency: 60 * 23, // (in minutes), 23 hours
 	},
 	urls: [
-		"https://www.boeing.com/",
-		"https://www.airbus.com/",
+		"https://boeing.com/",
+		"https://airbus.com/",
 	]
 };
