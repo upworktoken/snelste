@@ -1,0 +1,51 @@
+{
+  "url": "https://news.adidas.com/",
+  "requestedUrl": "https://news.adidas.com/Global",
+  "timestamp": 1628810311786,
+  "ranks": {
+    "hundos": 2,
+    "performance": 2,
+    "accessibility": 1,
+    "cumulative": 2
+  },
+  "lighthouse": {
+    "version": "8.3.0",
+    "performance": 0.41,
+    "accessibility": 0.8,
+    "bestPractices": 0.87,
+    "seo": 0.85,
+    "total": 293
+  },
+  "firstContentfulPaint": 1993.5589999999995,
+  "firstMeaningfulPaint": 1993.5589999999995,
+  "speedIndex": 6222.181828769374,
+  "largestContentfulPaint": 8715.527,
+  "totalBlockingTime": 879.5,
+  "cumulativeLayoutShift": 0.0035190144644843204,
+  "timeToInteractive": 10742.456999999999,
+  "maxPotentialFirstInputDelay": 629,
+  "timeToFirstByte": 376.785,
+  "weight": {
+    "summary": "30 requests • 1,624 KiB",
+    "total": 1663121,
+    "image": 482081,
+    "imageCount": 5,
+    "script": 708764,
+    "scriptCount": 13,
+    "document": 17149,
+    "font": 232045,
+    "fontCount": 5,
+    "stylesheet": 84111,
+    "stylesheetCount": 2,
+    "thirdParty": 796217,
+    "thirdPartyCount": 13
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 589,
+    "violations": 52
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "url": "https://www.nike.com/",
+  "requestedUrl": "https://nike.com/",
+  "timestamp": 1628810420722,
+  "ranks": {
+    "hundos": 2,
+    "performance": 2,
+    "accessibility": 1,
+    "cumulative": 2
+  },
+  "lighthouse": {
+    "version": "8.3.0",
+    "performance": 0.23,
+    "accessibility": 0.81,
+    "bestPractices": 0.67,
+    "seo": 0.99,
+    "total": 270
+  },
+  "firstContentfulPaint": 2469.2019999999998,
+  "firstMeaningfulPaint": 2497.7019999999998,
+  "speedIndex": 11363.33164286537,
+  "largestContentfulPaint": 7814.601999999999,
+  "totalBlockingTime": 15388.329578521729,
+  "cumulativeLayoutShift": 0.021564941406250003,
+  "timeToInteractive": 25584.59742147827,
+  "maxPotentialFirstInputDelay": 2067,
+  "timeToFirstByte": 432.46500000000003,
+  "weight": {
+    "summary": "197 requests • 4,177 KiB",
+    "total": 4277162,
+    "image": 359484,
+    "imageCount": 34,
+    "script": 2012076,
+    "scriptCount": 73,
+    "document": 141160,
+    "font": 77545,
+    "fontCount": 3,
+    "stylesheet": 52693,
+    "stylesheetCount": 5,
+    "thirdParty": 841350,
+    "thirdPartyCount": 88
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 1886,
+    "violations": 68
+  }
+}

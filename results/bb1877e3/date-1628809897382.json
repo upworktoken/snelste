@@ -1,0 +1,51 @@
+{
+  "url": "https://en.psg.fr/myparissaintgermain/redblue-premium",
+  "requestedUrl": "https://en.psg.fr/myparissaintgermain",
+  "timestamp": 1628810661335,
+  "ranks": {
+    "hundos": 2,
+    "performance": 2,
+    "accessibility": 2,
+    "cumulative": 2
+  },
+  "lighthouse": {
+    "version": "8.3.0",
+    "performance": 0.29,
+    "accessibility": 0.85,
+    "bestPractices": 0.73,
+    "seo": 0.98,
+    "total": 285
+  },
+  "firstContentfulPaint": 3084.3139999999994,
+  "firstMeaningfulPaint": 3084.3139999999994,
+  "speedIndex": 9079.348051549412,
+  "largestContentfulPaint": 8550.769499999999,
+  "totalBlockingTime": 1145.4999999999995,
+  "cumulativeLayoutShift": 0.06823510837554932,
+  "timeToInteractive": 13979.101999999999,
+  "maxPotentialFirstInputDelay": 589,
+  "timeToFirstByte": 2117.213,
+  "weight": {
+    "summary": "53 requests • 1,964 KiB",
+    "total": 2011293,
+    "image": 594182,
+    "imageCount": 17,
+    "script": 990544,
+    "scriptCount": 18,
+    "document": 155543,
+    "font": 108958,
+    "fontCount": 4,
+    "stylesheet": 152012,
+    "stylesheetCount": 1,
+    "thirdParty": 1029894,
+    "thirdPartyCount": 38
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 958,
+    "violations": 53
+  }
+}
