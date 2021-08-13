@@ -8,5 +8,9 @@ module.exports = {
 	urls: [
 	 "https://news.nike.com/",
 	 "https://www.nike.com/nl/nl/help",
+	],
+	names: [
+	 "https://news.nike.com/",
+	 "https://www.nike.com/nl/nl/help",
 	]
 };

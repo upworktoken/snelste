@@ -7,5 +7,9 @@ module.exports = {
 	urls: [
 		"https://google.com/",
 		"https://yandex.ua/",
+	],
+	names: [
+		"google",
+		"yandex",
 	]
 };

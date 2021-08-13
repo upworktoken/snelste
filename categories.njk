@@ -48,11 +48,11 @@ eleventyComputed:
 				</td>
 				<td class="leaderboard-hide-md leaderboard-trophies">{% if hundos === 4 %}🏆{% endif %}{% if loop.index0 === 0 %}🥇{% elseif loop.index0 === 1 %}🥈{% elseif loop.index0 === 2 %}🥉{% endif %}</td>
 				{%- set hasRedirect = site[newestKey].requestedUrl and site[newestKey].url != site[newestKey].requestedUrl %}
-				<td class="leaderboard-url"><a href="{{ site[newestKey].url }}"><code class="url">{{ site[newestKey].url | displayUrl(hasRedirect) }}</code></a>
+				<td class="leaderboard-url"><a href="{{ site[newestKey].url }}"><code class="url">{{ site[newestKey].name | displayUrl(hasRedirect) }}</code></a>
 					{%- if hasRedirect %}<span class="leaderboard-redirect-warn">Redirect from <code class="url">{{ site[newestKey].requestedUrl | displayUrl(true) }}</code></span>{% endif -%}
 					{%- if site[newestKey].error %}<span class="leaderboard-redirect-error">Error</span>{% endif -%}
 					{%- if not sites[vertical].hide %}
-					<span><a href="/{{vertical}}-{{ site[newestKey].url | displayUrl(hasRedirect) | GetName }}" class="leaderboard-data-right">
+					<span><a href="/{{vertical}}-{{ site[newestKey].name }}" class="leaderboard-data-right">
 						<svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
 						  <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd" />
 						</svg>
