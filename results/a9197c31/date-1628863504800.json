@@ -1,0 +1,52 @@
+{
+  "url": "https://about.google/",
+  "requestedUrl": "https://about.google/",
+  "timestamp": 1628863799500,
+  "ranks": {
+    "hundos": 1,
+    "performance": 1,
+    "accessibility": 1,
+    "cumulative": 1
+  },
+  "lighthouse": {
+    "version": "8.3.0",
+    "performance": 0.8,
+    "accessibility": 0.94,
+    "bestPractices": 0.8,
+    "seo": 1,
+    "total": 354
+  },
+  "firstContentfulPaint": 1554.0850000000003,
+  "firstMeaningfulPaint": 2620.324,
+  "speedIndex": 2141.0939609488332,
+  "largestContentfulPaint": 2596.487,
+  "totalBlockingTime": 480.16100000000006,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 6656.8205,
+  "maxPotentialFirstInputDelay": 310,
+  "timeToFirstByte": 20.712000000000003,
+  "weight": {
+    "summary": "73 requests • 6,426 KiB",
+    "total": 6580176,
+    "image": 6108142,
+    "imageCount": 25,
+    "script": 342639,
+    "scriptCount": 12,
+    "document": 13808,
+    "font": 41039,
+    "fontCount": 3,
+    "stylesheet": 61022,
+    "stylesheetCount": 2,
+    "thirdParty": 6465993,
+    "thirdPartyCount": 69
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 795,
+    "violations": 7
+  },
+  "name": "About Google"
+}

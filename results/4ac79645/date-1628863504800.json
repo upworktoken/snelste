@@ -1,0 +1,52 @@
+{
+  "url": "https://billetterie.psg.fr/fr/",
+  "requestedUrl": "https://billetterie.psg.fr/",
+  "timestamp": 1628864272002,
+  "ranks": {
+    "hundos": 4,
+    "performance": 3,
+    "accessibility": 4,
+    "cumulative": 4
+  },
+  "lighthouse": {
+    "version": "8.3.0",
+    "performance": 0.28,
+    "accessibility": 0.5,
+    "bestPractices": 0.93,
+    "seo": 0.84,
+    "total": 255
+  },
+  "firstContentfulPaint": 3304.3899999999994,
+  "firstMeaningfulPaint": 3304.3899999999994,
+  "speedIndex": 7146.8028802933095,
+  "largestContentfulPaint": 12263.541999999996,
+  "totalBlockingTime": 1363,
+  "cumulativeLayoutShift": 0.021507516860961917,
+  "timeToInteractive": 14026.717999999997,
+  "maxPotentialFirstInputDelay": 509,
+  "timeToFirstByte": 493.161,
+  "weight": {
+    "summary": "53 requests • 2,868 KiB",
+    "total": 2936756,
+    "image": 2092863,
+    "imageCount": 35,
+    "script": 562322,
+    "scriptCount": 3,
+    "document": 48801,
+    "font": 80540,
+    "fontCount": 4,
+    "stylesheet": 134006,
+    "stylesheetCount": 2,
+    "thirdParty": 150042,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 1019,
+    "violations": 141
+  },
+  "name": "https://billetterie.psg.fr/"
+}
