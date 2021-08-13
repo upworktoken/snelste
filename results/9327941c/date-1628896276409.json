@@ -1,0 +1,52 @@
+{
+  "url": "https://news.nike.com/",
+  "requestedUrl": "https://news.nike.com/",
+  "timestamp": 1628896640162,
+  "ranks": {
+    "hundos": 1,
+    "performance": 1,
+    "accessibility": 1,
+    "cumulative": 1
+  },
+  "lighthouse": {
+    "version": "8.3.0",
+    "performance": 0.69,
+    "accessibility": 0.92,
+    "bestPractices": 0.73,
+    "seo": 0.99,
+    "total": 333
+  },
+  "firstContentfulPaint": 2442.5779999999995,
+  "firstMeaningfulPaint": 2873.0114999999996,
+  "speedIndex": 3955.9992931800425,
+  "largestContentfulPaint": 7163.522,
+  "totalBlockingTime": 43.5,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 5344.3075,
+  "maxPotentialFirstInputDelay": 101,
+  "timeToFirstByte": 59.837,
+  "weight": {
+    "summary": "31 requests • 1,329 KiB",
+    "total": 1361242,
+    "image": 1060414,
+    "imageCount": 11,
+    "script": 171730,
+    "scriptCount": 9,
+    "document": 15323,
+    "font": 84416,
+    "fontCount": 3,
+    "stylesheet": 28188,
+    "stylesheetCount": 3,
+    "thirdParty": 1160083,
+    "thirdPartyCount": 22
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 460,
+    "violations": 24
+  },
+  "name": "https://news.nike.com/"
+}
