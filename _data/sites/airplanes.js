@@ -7,5 +7,9 @@ module.exports = {
 	urls: [
 		"https://boeing.com/",
 		"https://airbus.com/",
+	],
+	names: [
+		"boeing.com/",
+		"airbus",
 	]
 };

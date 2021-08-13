@@ -8,5 +8,10 @@ module.exports = {
 		"https://realmadrid.com/",
 		"https://psg.fr/",
 		"https://fcbarcelona.com/"
+	],
+	names: [
+		"realmadrid",
+		"psg",
+		"fcbarcelona"
 	]
 };

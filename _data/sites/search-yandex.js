@@ -8,5 +8,9 @@ module.exports = {
 	urls: [
 	 "https://yandex.ua/tune/geo",
 	 "https://passport.yandex.ua/",
+	],
+	names: [
+	 "https://yandex.ua/tune/geo",
+	 "https://passport.yandex.ua/",
 	]
 };

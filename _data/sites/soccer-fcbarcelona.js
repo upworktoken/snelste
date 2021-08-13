@@ -11,5 +11,12 @@ module.exports = {
 		"https://culers.fcbarcelona.com/",
 		"https://store.fcbarcelona.com/en/",
 		"https://barcatvplus.fcbarcelona.com/en/",
+	],
+	names: [
+		"https://www.fcbarcelona.com/en/tickets/camp-nou-experience",
+		"https://www.fcbarcelona.com/en/football/first-team/news",
+		"https://culers.fcbarcelona.com/",
+		"https://store.fcbarcelona.com/en/",
+		"https://barcatvplus.fcbarcelona.com/en/",
 	]
 };

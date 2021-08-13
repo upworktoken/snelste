@@ -63,7 +63,6 @@ async function tryToPreventNetlifyBuildTimeout(dateTestsStarted, numberOfUrls) {
 	let verticals = await fastglob("./_data/sites/**/*.js", {
 		caseSensitiveMatch: false
 	});
-	console.log(verticals)
 	for(let file of verticals) {
 		let group = require(file);
 		if(typeof group === "function") {
@@ -112,8 +111,10 @@ async function tryToPreventNetlifyBuildTimeout(dateTestsStarted, numberOfUrls) {
 			group.options || {}
 		);
 
+
 		let promises = [];
 		for(let result of results) {
+			result.name = group.names?group.names[group.urls.indexOf(result.requestedUrl)]:result.requestedUrl
 			let id = shortHash(result.url);
 			let isIsolated = group.options && group.options.isolated;
 			let dir = `${dataDir}results/${isIsolated ? `${key}/` : ""}${id}/`;
