@@ -8,5 +8,9 @@ module.exports = {
 	urls: [
 	"https://www.google.com/intl/en_nl/ads/",
 	"https://about.google/",
+	],
+	names: [
+		"Google Ads",
+		"About Google",
 	]
 };

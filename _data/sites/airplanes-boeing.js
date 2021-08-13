@@ -8,5 +8,10 @@ module.exports = {
 	urls: [
 	 "http://boeing.mediaroom.com/",
 	 "https://www.boeing.com/contact-us.page",
+	],
+	names: [
+		"boeing newsroom",
+		"Contact us",
 	]
+
 };

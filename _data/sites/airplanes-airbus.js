@@ -8,5 +8,9 @@ module.exports = {
 	urls: [
 	"https://www.airbus.com/space.html",
 	"https://www.airbus.com/investors/contact-us.html",
+	],
+	names: [
+		"Airbus Space Unit",
+		"Investors",
 	]
 };

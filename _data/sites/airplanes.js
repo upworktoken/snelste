@@ -9,7 +9,7 @@ module.exports = {
 		"https://airbus.com/",
 	],
 	names: [
-		"boeing.com/",
+		"boeing",
 		"airbus",
 	]
 };
