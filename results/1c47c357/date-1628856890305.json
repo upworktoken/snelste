@@ -1,0 +1,52 @@
+{
+  "url": "https://store.psg.fr/en/?_s=bm-FI-PSC-PSG-EN-HeaderURL-Desktop",
+  "requestedUrl": "https://en.psg.fr/shop",
+  "timestamp": 1628857690054,
+  "ranks": {
+    "hundos": 1,
+    "performance": 4,
+    "accessibility": 1,
+    "cumulative": 1
+  },
+  "lighthouse": {
+    "version": "8.3.0",
+    "performance": 0.21,
+    "accessibility": 0.95,
+    "bestPractices": 0.8,
+    "seo": 0.91,
+    "total": 287
+  },
+  "firstContentfulPaint": 2525.128,
+  "firstMeaningfulPaint": 2525.128,
+  "speedIndex": 9262.42896258731,
+  "largestContentfulPaint": 14700.128,
+  "totalBlockingTime": 911.5,
+  "cumulativeLayoutShift": 0.4697440767288208,
+  "timeToInteractive": 13668.0795,
+  "maxPotentialFirstInputDelay": 800,
+  "timeToFirstByte": 607.962,
+  "weight": {
+    "summary": "57 requests • 2,328 KiB",
+    "total": 2384299,
+    "image": 933342,
+    "imageCount": 21,
+    "script": 1136973,
+    "scriptCount": 12,
+    "document": 23023,
+    "font": 121939,
+    "fontCount": 4,
+    "stylesheet": 88515,
+    "stylesheetCount": 2,
+    "thirdParty": 55409,
+    "thirdPartyCount": 10
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 1226,
+    "violations": 50
+  },
+  "name": "https://en.psg.fr/shop"
+}

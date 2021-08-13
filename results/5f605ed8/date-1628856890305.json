@@ -1,0 +1,52 @@
+{
+  "url": "https://passport.yandex.ua/auth?retpath=https%3A%2F%2Fpassport.yandex.ua%2Fprofile&noreturn=1",
+  "requestedUrl": "https://passport.yandex.ua/",
+  "timestamp": 1628857258414,
+  "ranks": {
+    "hundos": 2,
+    "performance": 2,
+    "accessibility": 2,
+    "cumulative": 2
+  },
+  "lighthouse": {
+    "version": "8.3.0",
+    "performance": 0.42,
+    "accessibility": 0.75,
+    "bestPractices": 0.8,
+    "seo": 0.81,
+    "total": 278
+  },
+  "firstContentfulPaint": 3470.374000000001,
+  "firstMeaningfulPaint": 3470.374000000001,
+  "speedIndex": 8921.914291999947,
+  "largestContentfulPaint": 6546.553000000002,
+  "totalBlockingTime": 655,
+  "cumulativeLayoutShift": 0.00047013346354166666,
+  "timeToInteractive": 6246.680000000002,
+  "maxPotentialFirstInputDelay": 555,
+  "timeToFirstByte": 462.01099999999997,
+  "weight": {
+    "summary": "21 requests • 533 KiB",
+    "total": 545539,
+    "image": 0,
+    "imageCount": 0,
+    "script": 337268,
+    "scriptCount": 7,
+    "document": 14308,
+    "font": 145458,
+    "fontCount": 3,
+    "stylesheet": 42434,
+    "stylesheetCount": 2,
+    "thirdParty": 527683,
+    "thirdPartyCount": 17
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 144,
+    "violations": 16
+  },
+  "name": "https://passport.yandex.ua/"
+}

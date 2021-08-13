@@ -1,0 +1,52 @@
+{
+  "url": "https://store.fcbarcelona.com/en/",
+  "requestedUrl": "https://store.fcbarcelona.com/en/",
+  "timestamp": 1628857577593,
+  "ranks": {
+    "hundos": 4,
+    "performance": 4,
+    "accessibility": 4,
+    "cumulative": 4
+  },
+  "lighthouse": {
+    "version": "8.3.0",
+    "performance": 0.24,
+    "accessibility": 0.72,
+    "bestPractices": 0.73,
+    "seo": 0.77,
+    "total": 246
+  },
+  "firstContentfulPaint": 3876.1829999999995,
+  "firstMeaningfulPaint": 5696.2885,
+  "speedIndex": 13038.491471369744,
+  "largestContentfulPaint": 21075.597999999998,
+  "totalBlockingTime": 1276.5,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 34218.7755,
+  "maxPotentialFirstInputDelay": 836,
+  "timeToFirstByte": 673.4189999999999,
+  "weight": {
+    "summary": "133 requests • 9,054 KiB",
+    "total": 9271739,
+    "image": 8094357,
+    "imageCount": 82,
+    "script": 654775,
+    "scriptCount": 22,
+    "document": 37723,
+    "font": 372168,
+    "fontCount": 14,
+    "stylesheet": 108678,
+    "stylesheetCount": 5,
+    "thirdParty": 393856,
+    "thirdPartyCount": 33
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 1568,
+    "violations": 23
+  },
+  "name": "https://store.fcbarcelona.com/en/"
+}

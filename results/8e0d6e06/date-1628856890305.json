@@ -1,0 +1,52 @@
+{
+  "url": "https://yandex.ua/tune/geo",
+  "requestedUrl": "https://yandex.ua/tune/geo",
+  "timestamp": 1628857243232,
+  "ranks": {
+    "hundos": 1,
+    "performance": 1,
+    "accessibility": 1,
+    "cumulative": 1
+  },
+  "lighthouse": {
+    "version": "8.3.0",
+    "performance": 0.51,
+    "accessibility": 0.88,
+    "bestPractices": 0.8,
+    "seo": 0.92,
+    "total": 311
+  },
+  "firstContentfulPaint": 1736.0929999999998,
+  "firstMeaningfulPaint": 1736.0929999999998,
+  "speedIndex": 7634.699526610002,
+  "largestContentfulPaint": 7913.064999999999,
+  "totalBlockingTime": 451.5,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 7256.147999999999,
+  "maxPotentialFirstInputDelay": 332,
+  "timeToFirstByte": 268.26,
+  "weight": {
+    "summary": "29 requests • 920 KiB",
+    "total": 942443,
+    "image": 68457,
+    "imageCount": 14,
+    "script": 854761,
+    "scriptCount": 9,
+    "document": 8455,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 8056,
+    "stylesheetCount": 1,
+    "thirdParty": 933643,
+    "thirdPartyCount": 25
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 236,
+    "violations": 9
+  },
+  "name": "https://yandex.ua/tune/geo"
+}

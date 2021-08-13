@@ -1,0 +1,52 @@
+{
+  "url": "https://shop.realmadrid.com/",
+  "requestedUrl": "https://shop.realmadrid.com/",
+  "timestamp": 1628857847425,
+  "ranks": {
+    "hundos": 1,
+    "performance": 4,
+    "accessibility": 1,
+    "cumulative": 1
+  },
+  "lighthouse": {
+    "version": "8.3.0",
+    "performance": 0.18,
+    "accessibility": 0.91,
+    "bestPractices": 0.73,
+    "seo": 0.82,
+    "total": 264
+  },
+  "firstContentfulPaint": 4679.716,
+  "firstMeaningfulPaint": 6152.239,
+  "speedIndex": 10781.42941740902,
+  "largestContentfulPaint": 11032.738000000001,
+  "totalBlockingTime": 3237.571499999998,
+  "cumulativeLayoutShift": 0.0410546875,
+  "timeToInteractive": 20343.044500000004,
+  "maxPotentialFirstInputDelay": 739,
+  "timeToFirstByte": 110.25599999999999,
+  "weight": {
+    "summary": "116 requests • 3,300 KiB",
+    "total": 3379303,
+    "image": 1301435,
+    "imageCount": 38,
+    "script": 1411223,
+    "scriptCount": 43,
+    "document": 69797,
+    "font": 455273,
+    "fontCount": 8,
+    "stylesheet": 73231,
+    "stylesheetCount": 2,
+    "thirdParty": 3307986,
+    "thirdPartyCount": 114
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 931,
+    "violations": 18
+  },
+  "name": "https://shop.realmadrid.com/"
+}
