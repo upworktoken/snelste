@@ -1,0 +1,52 @@
+{
+  "url": "https://www.nike.com/nl/nl/help",
+  "requestedUrl": "https://www.nike.com/nl/nl/help",
+  "timestamp": 1628983090203,
+  "ranks": {
+    "hundos": 2,
+    "performance": 2,
+    "accessibility": 2,
+    "cumulative": 2
+  },
+  "lighthouse": {
+    "version": "8.3.0",
+    "performance": 0.07,
+    "accessibility": 0.78,
+    "bestPractices": 0.6,
+    "seo": 1,
+    "total": 245
+  },
+  "firstContentfulPaint": 3583.713999999999,
+  "firstMeaningfulPaint": 4096.0999999999985,
+  "speedIndex": 9460.900984360245,
+  "largestContentfulPaint": 11561.034499999998,
+  "totalBlockingTime": 11009.999999999996,
+  "cumulativeLayoutShift": 0.553125,
+  "timeToInteractive": 17039.30884295654,
+  "maxPotentialFirstInputDelay": 1867,
+  "timeToFirstByte": 411.035,
+  "weight": {
+    "summary": "84 requests • 1,276 KiB",
+    "total": 1307053,
+    "image": 3412,
+    "imageCount": 3,
+    "script": 1114461,
+    "scriptCount": 37,
+    "document": 75850,
+    "font": 52339,
+    "fontCount": 2,
+    "stylesheet": 30651,
+    "stylesheetCount": 4,
+    "thirdParty": 225835,
+    "thirdPartyCount": 23
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 1082,
+    "violations": 36
+  },
+  "name": "https://www.nike.com/nl/nl/help"
+}

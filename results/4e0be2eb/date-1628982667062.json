@@ -1,0 +1,52 @@
+{
+  "url": "https://www.realmadrid.com/en",
+  "requestedUrl": "https://realmadrid.com/",
+  "timestamp": 1628983579036,
+  "ranks": {
+    "hundos": 3,
+    "performance": 3,
+    "accessibility": 1,
+    "cumulative": 3
+  },
+  "lighthouse": {
+    "version": "8.3.0",
+    "performance": 0.18,
+    "accessibility": 0.86,
+    "bestPractices": 0.6,
+    "seo": 0.85,
+    "total": 249
+  },
+  "firstContentfulPaint": 2873.468,
+  "firstMeaningfulPaint": 2873.468,
+  "speedIndex": 7472.461344001327,
+  "largestContentfulPaint": 10371.084,
+  "totalBlockingTime": 1237,
+  "cumulativeLayoutShift": 0.4666780403984917,
+  "timeToInteractive": 14869.266000000003,
+  "maxPotentialFirstInputDelay": 432,
+  "timeToFirstByte": 13.692,
+  "weight": {
+    "summary": "77 requests • 1,800 KiB",
+    "total": 1843652,
+    "image": 549124,
+    "imageCount": 27,
+    "script": 898377,
+    "scriptCount": 26,
+    "document": 50773,
+    "font": 216308,
+    "fontCount": 3,
+    "stylesheet": 94403,
+    "stylesheetCount": 2,
+    "thirdParty": 644825,
+    "thirdPartyCount": 32
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 1988,
+    "violations": 201
+  },
+  "name": "realmadrid"
+}

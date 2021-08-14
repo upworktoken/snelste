@@ -1,0 +1,52 @@
+{
+  "url": "https://www.realmadrid.com/en/tickets",
+  "requestedUrl": "https://realmadrid.com/en/tickets",
+  "timestamp": 1628983463152,
+  "ranks": {
+    "hundos": 3,
+    "performance": 2,
+    "accessibility": 3,
+    "cumulative": 3
+  },
+  "lighthouse": {
+    "version": "8.3.0",
+    "performance": 0.2,
+    "accessibility": 0.86,
+    "bestPractices": 0.67,
+    "seo": 0.86,
+    "total": 259
+  },
+  "firstContentfulPaint": 4783.746999999999,
+  "firstMeaningfulPaint": 4783.746999999999,
+  "speedIndex": 11058.254323590472,
+  "largestContentfulPaint": 18373.938999999995,
+  "totalBlockingTime": 1870.8719999999994,
+  "cumulativeLayoutShift": 0.02494873046875,
+  "timeToInteractive": 18046.746499999997,
+  "maxPotentialFirstInputDelay": 361,
+  "timeToFirstByte": 117.90499999999997,
+  "weight": {
+    "summary": "105 requests • 2,164 KiB",
+    "total": 2216139,
+    "image": 369620,
+    "imageCount": 28,
+    "script": 1140233,
+    "scriptCount": 37,
+    "document": 44315,
+    "font": 83030,
+    "fontCount": 6,
+    "stylesheet": 508489,
+    "stylesheetCount": 2,
+    "thirdParty": 1036312,
+    "thirdPartyCount": 72
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 810,
+    "violations": 54
+  },
+  "name": "https://realmadrid.com/en/tickets"
+}
