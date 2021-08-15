@@ -1,0 +1,52 @@
+{
+  "url": "https://www.realmadrid.com/en/real-madrid-tv",
+  "requestedUrl": "https://www.realmadrid.com/en/real-madrid-tv",
+  "timestamp": 1629069934109,
+  "ranks": {
+    "hundos": 4,
+    "performance": 4,
+    "accessibility": 2,
+    "cumulative": 4
+  },
+  "lighthouse": {
+    "version": "8.3.0",
+    "performance": 0.19,
+    "accessibility": 0.87,
+    "bestPractices": 0.67,
+    "seo": 0.86,
+    "total": 259
+  },
+  "firstContentfulPaint": 3946.356,
+  "firstMeaningfulPaint": 3946.356,
+  "speedIndex": 14792.576133643135,
+  "largestContentfulPaint": 19411.659,
+  "totalBlockingTime": 2385.000000000002,
+  "cumulativeLayoutShift": 0.02544472312927246,
+  "timeToInteractive": 21275.985,
+  "maxPotentialFirstInputDelay": 347,
+  "timeToFirstByte": 2750.29,
+  "weight": {
+    "summary": "128 requests • 2,700 KiB",
+    "total": 2764827,
+    "image": 494710,
+    "imageCount": 29,
+    "script": 1347292,
+    "scriptCount": 50,
+    "document": 249177,
+    "font": 51339,
+    "fontCount": 2,
+    "stylesheet": 508489,
+    "stylesheetCount": 2,
+    "thirdParty": 1433795,
+    "thirdPartyCount": 96
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 1211,
+    "violations": 65
+  },
+  "name": "https://www.realmadrid.com/en/real-madrid-tv"
+}

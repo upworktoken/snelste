@@ -1,0 +1,52 @@
+{
+  "url": "https://barcatvplus.fcbarcelona.com/en/",
+  "requestedUrl": "https://barcatvplus.fcbarcelona.com/en/",
+  "timestamp": 1629069700973,
+  "ranks": {
+    "hundos": 2,
+    "performance": 3,
+    "accessibility": 3,
+    "cumulative": 2
+  },
+  "lighthouse": {
+    "version": "8.3.0",
+    "performance": 0.26,
+    "accessibility": 0.88,
+    "bestPractices": 0.73,
+    "seo": 0.9,
+    "total": 277
+  },
+  "firstContentfulPaint": 2021.588,
+  "firstMeaningfulPaint": 2021.588,
+  "speedIndex": 9965.339999783457,
+  "largestContentfulPaint": 11588.7985,
+  "totalBlockingTime": 3570.4774168243403,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 17320.69591682434,
+  "maxPotentialFirstInputDelay": 712,
+  "timeToFirstByte": 195.41699999999997,
+  "weight": {
+    "summary": "141 requests • 2,095 KiB",
+    "total": 2145700,
+    "image": 498487,
+    "imageCount": 38,
+    "script": 964378,
+    "scriptCount": 58,
+    "document": 56102,
+    "font": 205301,
+    "fontCount": 5,
+    "stylesheet": 52855,
+    "stylesheetCount": 1,
+    "thirdParty": 830167,
+    "thirdPartyCount": 110
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 5918,
+    "violations": 22
+  },
+  "name": "https://barcatvplus.fcbarcelona.com/en/"
+}
