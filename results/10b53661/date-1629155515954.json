@@ -1,0 +1,52 @@
+{
+  "url": "https://www.adidas-group.com/en/",
+  "requestedUrl": "https://www.adidas-group.com/en/",
+  "timestamp": 1629155868590,
+  "ranks": {
+    "hundos": 1,
+    "performance": 1,
+    "accessibility": 2,
+    "cumulative": 1
+  },
+  "lighthouse": {
+    "version": "8.3.0",
+    "performance": 0.58,
+    "accessibility": 0.75,
+    "bestPractices": 0.87,
+    "seo": 0.9,
+    "total": 310
+  },
+  "firstContentfulPaint": 1562.996,
+  "firstMeaningfulPaint": 1562.996,
+  "speedIndex": 4664.3716984101375,
+  "largestContentfulPaint": 5687.9220000000005,
+  "totalBlockingTime": 497,
+  "cumulativeLayoutShift": 0.05152334965599908,
+  "timeToInteractive": 7818.807999999999,
+  "maxPotentialFirstInputDelay": 283,
+  "timeToFirstByte": 465.969,
+  "weight": {
+    "summary": "39 requests • 1,140 KiB",
+    "total": 1167570,
+    "image": 476571,
+    "imageCount": 11,
+    "script": 459609,
+    "scriptCount": 11,
+    "document": 23646,
+    "font": 179545,
+    "fontCount": 5,
+    "stylesheet": 17240,
+    "stylesheetCount": 3,
+    "thirdParty": 439458,
+    "thirdPartyCount": 21
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 8,
+    "violations": 4
+  },
+  "name": "https://www.adidas-group.com/en/"
+}
