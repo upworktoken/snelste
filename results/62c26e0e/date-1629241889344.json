@@ -1,0 +1,52 @@
+{
+  "url": "https://yandex.ua/",
+  "requestedUrl": "https://yandex.ua/",
+  "timestamp": 1629242187144,
+  "ranks": {
+    "hundos": 2,
+    "performance": 2,
+    "accessibility": 1,
+    "cumulative": 2
+  },
+  "lighthouse": {
+    "version": "8.3.0",
+    "performance": 0.47,
+    "accessibility": 0.89,
+    "bestPractices": 0.73,
+    "seo": 0.98,
+    "total": 307
+  },
+  "firstContentfulPaint": 1743.0640000000003,
+  "firstMeaningfulPaint": 3429.3630000000003,
+  "speedIndex": 3597.5515188051736,
+  "largestContentfulPaint": 8574.732,
+  "totalBlockingTime": 848.5949999999993,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 9323.137,
+  "maxPotentialFirstInputDelay": 653,
+  "timeToFirstByte": 275.69300000000004,
+  "weight": {
+    "summary": "38 requests • 1,170 KiB",
+    "total": 1198389,
+    "image": 66265,
+    "imageCount": 13,
+    "script": 804119,
+    "scriptCount": 8,
+    "document": 175827,
+    "font": 135241,
+    "fontCount": 3,
+    "stylesheet": 12374,
+    "stylesheetCount": 1,
+    "thirdParty": 1019392,
+    "thirdPartyCount": 27
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 2002,
+    "violations": 22
+  },
+  "name": "yandex"
+}
