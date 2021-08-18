@@ -1,0 +1,52 @@
+{
+  "url": "https://boeing.mediaroom.com/",
+  "requestedUrl": "http://boeing.mediaroom.com/",
+  "timestamp": 1629312272230,
+  "ranks": {
+    "hundos": 1,
+    "performance": 1,
+    "accessibility": 1,
+    "cumulative": 1
+  },
+  "lighthouse": {
+    "version": "8.3.0",
+    "performance": 0.45,
+    "accessibility": 0.7,
+    "bestPractices": 0.53,
+    "seo": 0.75,
+    "total": 243
+  },
+  "firstContentfulPaint": 3281.0550000000003,
+  "firstMeaningfulPaint": 5020.403,
+  "speedIndex": 5158.653326460619,
+  "largestContentfulPaint": 9926.664500000004,
+  "totalBlockingTime": 291.0000000000009,
+  "cumulativeLayoutShift": 0.24149242824978298,
+  "timeToInteractive": 10268.374500000002,
+  "maxPotentialFirstInputDelay": 141,
+  "timeToFirstByte": 184.291,
+  "weight": {
+    "summary": "199 requests • 1,669 KiB",
+    "total": 1708598,
+    "image": 915688,
+    "imageCount": 123,
+    "script": 394132,
+    "scriptCount": 40,
+    "document": 41656,
+    "font": 303434,
+    "fontCount": 6,
+    "stylesheet": 48565,
+    "stylesheetCount": 5,
+    "thirdParty": 120166,
+    "thirdPartyCount": 19
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 1039,
+    "violations": 44
+  },
+  "name": "boeing newsroom"
+}
