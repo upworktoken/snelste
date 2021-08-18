@@ -8,7 +8,7 @@ module.exports = {
 	urls: [
 		"https://realmadrid.com/en/tickets",
 		"https://shop.realmadrid.com/",
-		"https://www.realmadrid.com/en/real-madrid-tv",
-		"https://www.realmadrid.com/en/tour-bernabeu"
+		// "https://www.realmadrid.com/en/real-madrid-tv",
+		// "https://www.realmadrid.com/en/tour-bernabeu"
 	]
 };

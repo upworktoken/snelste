@@ -8,7 +8,7 @@ module.exports = {
 	urls: [
 		"https://en.psg.fr/shop",
 		"https://en.psg.fr/myparissaintgermain",
-		"https://en.experience.psg.fr/",
-		"https://billetterie.psg.fr/",
+		// "https://en.experience.psg.fr/",
+		// "https://billetterie.psg.fr/",
 	]
 };
