@@ -1,0 +1,52 @@
+{
+  "url": "https://www.fcbarcelona.com/en/tickets/camp-nou-experience",
+  "requestedUrl": "https://www.fcbarcelona.com/en/tickets/camp-nou-experience",
+  "timestamp": 1629402029490,
+  "ranks": {
+    "hundos": 2,
+    "performance": 2,
+    "accessibility": 1,
+    "cumulative": 2
+  },
+  "lighthouse": {
+    "version": "8.3.0",
+    "performance": 0.3,
+    "accessibility": 0.9,
+    "bestPractices": 0.67,
+    "seo": 0.89,
+    "total": 276
+  },
+  "firstContentfulPaint": 2270.7819999999997,
+  "firstMeaningfulPaint": 2270.7819999999997,
+  "speedIndex": 6595.040421030974,
+  "largestContentfulPaint": 8394.544000000002,
+  "totalBlockingTime": 2080.9999999999995,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 15688.697662628174,
+  "maxPotentialFirstInputDelay": 561,
+  "timeToFirstByte": 31.79100000000001,
+  "weight": {
+    "summary": "134 requests • 2,597 KiB",
+    "total": 2659016,
+    "image": 1020388,
+    "imageCount": 40,
+    "script": 794468,
+    "scriptCount": 48,
+    "document": 47050,
+    "font": 233979,
+    "fontCount": 6,
+    "stylesheet": 154640,
+    "stylesheetCount": 1,
+    "thirdParty": 640954,
+    "thirdPartyCount": 91
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 2056,
+    "violations": 37
+  },
+  "name": "Camp Nou experience"
+}
