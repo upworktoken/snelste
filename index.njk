@@ -9,16 +9,16 @@ layout: layout.njk
 			<th>Last Run Date</th>
 		</tr>
 	</thead>
+
 	<tbody>
-	{%- for key, category in sites %}
-		{%- if not category.hide %}
+	{%- for item in groups %}
 		<tr>
-			<td><a href="{{ ('/' + (key) | lower | slug + '/') | url }}">{{ category.name or key }}</a></td>
-			<td><span class="count">×{{ category.urls.length }}<span class="leaderboard-hide-sm"> site{% if category.urls.length != 1 %}s{% endif %}</span></span></td>
-			<td class="leaderboard-hide-sm">{% if lastruns[key].timestamp %}<span class="small"><timestamp-ago timestamp="{{ lastruns[key].timestamp }}">{{ lastruns[key].timestamp | displayDate | safe }}</timestamp-ago></span>{% endif %}</td>
+			<td class="border-2 bg-white">
+				<a href="{{item.name|slug}}" class="bg-white">{{item.name}}</a></li>
+				<span class="count">×{{ item.sites.length }}</span>
+			</td>
 		</tr>
-		{%- endif %}
-	{%- endfor %}
+	{% endfor %}
 	</tbody>
 
 </table>

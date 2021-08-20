@@ -6,8 +6,8 @@ module.exports = {
 		frequency: 60 * 1, // (in minutes), 23 hours
 	},
 	urls: [
-	"https://www.airbus.com/space.html",
-	"https://www.airbus.com/investors/contact-us.html",
+		"https://www.airbus.com/space.html",
+		"https://www.airbus.com/investors/contact-us.html",
 	],
 	names: [
 		"Airbus Space Unit",
