@@ -1,0 +1,52 @@
+{
+  "url": "https://boeing.mediaroom.com/",
+  "requestedUrl": "https://boeing.mediaroom.com/",
+  "timestamp": 1629993537643,
+  "ranks": {
+    "hundos": 2,
+    "performance": 1,
+    "accessibility": 2,
+    "cumulative": 2
+  },
+  "lighthouse": {
+    "version": "8.3.0",
+    "performance": 0.43,
+    "accessibility": 0.7,
+    "bestPractices": 0.6,
+    "seo": 0.75,
+    "total": 248
+  },
+  "firstContentfulPaint": 3204.9979999999996,
+  "firstMeaningfulPaint": 4783.618,
+  "speedIndex": 7784.987283536972,
+  "largestContentfulPaint": 9262.765499999998,
+  "totalBlockingTime": 277,
+  "cumulativeLayoutShift": 0.19962439515855576,
+  "timeToInteractive": 10557.507999999994,
+  "maxPotentialFirstInputDelay": 166,
+  "timeToFirstByte": 250.10600000000002,
+  "weight": {
+    "summary": "204 requests • 1,668 KiB",
+    "total": 1708349,
+    "image": 919776,
+    "imageCount": 125,
+    "script": 389788,
+    "scriptCount": 40,
+    "document": 41787,
+    "font": 303686,
+    "fontCount": 8,
+    "stylesheet": 48574,
+    "stylesheetCount": 5,
+    "thirdParty": 115663,
+    "thirdPartyCount": 19
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 1056,
+    "violations": 48
+  },
+  "name": "Hewsroom"
+}

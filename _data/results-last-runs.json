@@ -6,15 +6,18 @@
     "timestamp": 1629469827687
   },
   "airplanes": {
-    "timestamp": 1629469940570
+    "timestamp": 1629993720966
   },
   "boeing": {
-    "timestamp": 1629470027322
+    "timestamp": 1629993582351
   },
   "fbbarcelona": {
     "timestamp": 1629470081941
   },
   "psg": {
     "timestamp": 1629470125077
+  },
+  "airbus": {
+    "timestamp": 1629993494281
   }
 }
