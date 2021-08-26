@@ -1,7 +1,9 @@
 ---
 layout: layout.njk
 ---
-<table class="italic bg-gray-700 leaderboard leaderboard-list">
+
+<table class="leaderboard leaderboard-list">
+	<caption>Choose a category</caption>
 	<thead data-sr-only>
 		<tr>
 			<th>Category</th>
@@ -9,17 +11,15 @@ layout: layout.njk
 			<th>Last Run Date</th>
 		</tr>
 	</thead>
-
 	<tbody>
-	{%- for item in groups %}
+	{%- for key, category in sites %}
+		{%- if not category.hide %}
 		<tr>
-			<td class="border-2 bg-white">
-				<a href="{{item.name|slug}}" class="bg-white">{{item.name}}</a></li>
-				<span class="count">×{{ item.sites.length }}</span>
-			</td>
+			<td><a href="{{ ('/' + (category.name or key) | lower | slug + '/') | url }}">{{ category.name }}</a></td>
+			<td><span class="count">×{{ category.urls.length }}<span class="leaderboard-hide-sm"> site{% if category.urls.length != 1 %}s{% endif %}</span></span></td>
+			<td class="leaderboard-hide-sm">{% if lastruns[key].timestamp %}<span class="small"><timestamp-ago timestamp="{{ lastruns[key].timestamp }}">{{ lastruns[key].timestamp | displayDate | safe }}</timestamp-ago></span>{% endif %}</td>
 		</tr>
-	{% endfor %}
+		{%- endif %}
+	{%- endfor %}
 	</tbody>
-
 </table>
-
