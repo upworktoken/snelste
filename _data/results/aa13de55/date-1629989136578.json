@@ -1,0 +1,53 @@
+{
+  "url": "https://experience.psg.fr/",
+  "requestedUrl": "https://experience.psg.fr/",
+  "timestamp": 1629989476365,
+  "ranks": {
+    "hundos": 1,
+    "performance": 1,
+    "accessibility": 1,
+    "cumulative": 1
+  },
+  "lighthouse": {
+    "version": "8.3.0",
+    "performance": 0.3,
+    "accessibility": 0.81,
+    "bestPractices": 0.73,
+    "seo": 0.91,
+    "total": 275
+  },
+  "firstContentfulPaint": 2930.473,
+  "firstMeaningfulPaint": 3880.865,
+  "speedIndex": 8068.919102163647,
+  "largestContentfulPaint": 9776.280999999999,
+  "totalBlockingTime": 1068.5,
+  "cumulativeLayoutShift": 0.009529358810848659,
+  "timeToInteractive": 18868.486999999997,
+  "maxPotentialFirstInputDelay": 424,
+  "timeToFirstByte": 27.055999999999997,
+  "weight": {
+    "summary": "86 requests • 2,636 KiB",
+    "total": 2699420,
+    "image": 596143,
+    "imageCount": 28,
+    "script": 1670615,
+    "scriptCount": 35,
+    "document": 158647,
+    "font": 108950,
+    "fontCount": 4,
+    "stylesheet": 152003,
+    "stylesheetCount": 1,
+    "thirdParty": 1636767,
+    "thirdPartyCount": 73
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 1015,
+    "violations": 63
+  }
+  ,
+  "name": "PSG Stadium Tour"
+}

@@ -217,9 +217,12 @@ module.exports = function(eleventyConfig) {
 
 	eleventyConfig.addFilter("getSites", (results, sites, vertical, skipKeys = []) => {
 		let urls = sites[vertical].urls;
+		console.log(urls)
 		let slugs = {}
+		let names = {}
 		urls.forEach((url,i)=>{
 			if(sites[vertical].slugs) slugs[url]=sites[vertical].slugs[i]
+			if(sites[vertical].names) names[url]=sites[vertical].names[i]
 		})
 		console.log(slugs)
 		let isIsolated = sites[vertical].options && sites[vertical].options.isolated === true;
@@ -228,10 +231,13 @@ module.exports = function(eleventyConfig) {
 		output.forEach((item,i)=>{
 			Object.keys(item).forEach(key=>{
 				slug = slugs[item[key].requestedUrl]
+				name = names[item[key].requestedUrl]
 				if (slug) item[key].slug=slug
+				name?item[key].name=name:item[key].requestedUrl
 			})
 
 		})
+		console.log(output)
 		return output;
 	});
 
