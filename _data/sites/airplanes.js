@@ -2,7 +2,7 @@
 json = 
 [
 	{
-	  name:"boeing.com",
+	  name:"boeing.com the plane",
 	  url:"https://boeing.com/",
 	  slug:"boeing"
 	},	
